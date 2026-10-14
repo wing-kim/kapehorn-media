@@ -1,0 +1,835 @@
+{
+ "version": "2026-10-14 10:27",
+ "tiers": {
+  "thumb": "thumb/",
+  "std": "std/",
+  "hd": "hd/"
+ },
+ "basis": {
+  "sch": [
+   "alt4"
+  ],
+  "base": "alt4"
+ },
+ "sch": {
+  "mech": "기계식",
+  "self": "자주식1",
+  "alt3": "자주식2",
+  "alt4": "자주식3"
+ },
+ "ext": {
+  "preset": {
+   "stack": {
+    "num": 1,
+    "file": "스택프레임",
+    "name": "스택 프레임",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/stack/000.webp",
+     "45": "ext/preset/stack/045.webp",
+     "90": "ext/preset/stack/090.webp",
+     "180": "ext/preset/stack/180.webp",
+     "135": "ext/preset/stack/135.webp",
+     "225": "ext/preset/stack/225.webp",
+     "270": "ext/preset/stack/270.webp"
+    },
+    "r360": true
+   },
+   "veil": {
+    "num": 2,
+    "file": "메탈메시베일",
+    "name": "메탈 메시 베일",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/veil/000.webp",
+     "45": "ext/preset/veil/045.webp",
+     "90": "ext/preset/veil/090.webp",
+     "180": "ext/preset/veil/180.webp"
+    }
+   },
+   "arch": {
+    "num": 3,
+    "file": "아치석재",
+    "name": "아치 석재",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/arch/000.webp",
+     "45": "ext/preset/arch/045.webp",
+     "90": "ext/preset/arch/090.webp",
+     "180": "ext/preset/arch/180.webp"
+    }
+   },
+   "pixel": {
+    "num": 4,
+    "file": "픽셀모자이크",
+    "name": "픽셀 모자이크",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/pixel/000.webp",
+     "45": "ext/preset/pixel/045.webp",
+     "90": "ext/preset/pixel/090.webp",
+     "180": "ext/preset/pixel/180.webp"
+    }
+   },
+   "fold": {
+    "num": 5,
+    "file": "접힌알루미늄",
+    "name": "접힌 알루미늄",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/fold/000.webp",
+     "45": "ext/preset/fold/045.webp",
+     "90": "ext/preset/fold/090.webp",
+     "180": "ext/preset/fold/180.webp"
+    }
+   },
+   "ribbon": {
+    "num": 6,
+    "file": "물결리본",
+    "name": "물결 리본",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/ribbon/000.webp",
+     "45": "ext/preset/ribbon/045.webp",
+     "90": "ext/preset/ribbon/090.webp",
+     "180": "ext/preset/ribbon/180.webp"
+    }
+   },
+   "hfin": {
+    "num": 7,
+    "file": "수평루버그라데이션",
+    "name": "수평 루버 그라데이션",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/hfin/000.webp",
+     "45": "ext/preset/hfin/045.webp",
+     "90": "ext/preset/hfin/090.webp",
+     "180": "ext/preset/hfin/180.webp"
+    }
+   },
+   "baybox": {
+    "num": 8,
+    "file": "돌출박스창",
+    "name": "돌출 박스 창",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/baybox/000.webp",
+     "45": "ext/preset/baybox/045.webp",
+     "90": "ext/preset/baybox/090.webp",
+     "180": "ext/preset/baybox/180.webp"
+    }
+   },
+   "hex": {
+    "num": 9,
+    "file": "허니콤스크린",
+    "name": "허니콤 스크린",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/hex/000.webp",
+     "45": "ext/preset/hex/045.webp",
+     "90": "ext/preset/hex/090.webp",
+     "180": "ext/preset/hex/180.webp"
+    }
+   },
+   "media": {
+    "num": 10,
+    "file": "LED미디어라인",
+    "name": "LED 미디어 라인",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/media/000.webp",
+     "45": "ext/preset/media/045.webp",
+     "90": "ext/preset/media/090.webp",
+     "180": "ext/preset/media/180.webp",
+     "135": "ext/preset/media/135.webp",
+     "225": "ext/preset/media/225.webp",
+     "270": "ext/preset/media/270.webp"
+    },
+    "r360": true
+   },
+   "gblock": {
+    "num": 11,
+    "file": "글라스블록",
+    "name": "글라스 블록",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/gblock/000.webp",
+     "45": "ext/preset/gblock/045.webp",
+     "90": "ext/preset/gblock/090.webp",
+     "180": "ext/preset/gblock/180.webp"
+    }
+   },
+   "perf": {
+    "num": 12,
+    "file": "그라데이션타공판",
+    "name": "그라데이션 타공판",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/perf/000.webp",
+     "45": "ext/preset/perf/045.webp",
+     "90": "ext/preset/perf/090.webp",
+     "180": "ext/preset/perf/180.webp"
+    }
+   },
+   "woodfin": {
+    "num": 13,
+    "file": "우드수직루버",
+    "name": "우드 수직 루버",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/woodfin/000.webp",
+     "45": "ext/preset/woodfin/045.webp",
+     "90": "ext/preset/woodfin/090.webp",
+     "180": "ext/preset/woodfin/180.webp"
+    }
+   },
+   "ceramic": {
+    "num": 14,
+    "file": "세라믹튜브",
+    "name": "세라믹 튜브",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/ceramic/000.webp",
+     "45": "ext/preset/ceramic/045.webp",
+     "90": "ext/preset/ceramic/090.webp",
+     "180": "ext/preset/ceramic/180.webp"
+    }
+   },
+   "uglass": {
+    "num": 15,
+    "file": "U글라스",
+    "name": "U-글라스",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/uglass/000.webp",
+     "45": "ext/preset/uglass/045.webp",
+     "90": "ext/preset/uglass/090.webp",
+     "180": "ext/preset/uglass/180.webp",
+     "135": "ext/preset/uglass/135.webp",
+     "225": "ext/preset/uglass/225.webp",
+     "270": "ext/preset/uglass/270.webp"
+    },
+    "r360": true
+   },
+   "balcony": {
+    "num": 16,
+    "file": "층별발코니띠",
+    "name": "층별 발코니 띠",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/balcony/000.webp",
+     "45": "ext/preset/balcony/045.webp",
+     "90": "ext/preset/balcony/090.webp",
+     "180": "ext/preset/balcony/180.webp"
+    }
+   },
+   "xbrace": {
+    "num": 17,
+    "file": "X브레이싱철골",
+    "name": "X 브레이싱 철골",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/xbrace/000.webp",
+     "45": "ext/preset/xbrace/045.webp",
+     "90": "ext/preset/xbrace/090.webp",
+     "180": "ext/preset/xbrace/180.webp",
+     "135": "ext/preset/xbrace/135.webp",
+     "225": "ext/preset/xbrace/225.webp",
+     "270": "ext/preset/xbrace/270.webp"
+    },
+    "r360": true
+   },
+   "checker": {
+    "num": 18,
+    "file": "체커프레임",
+    "name": "체커 프레임",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/checker/000.webp",
+     "45": "ext/preset/checker/045.webp",
+     "90": "ext/preset/checker/090.webp",
+     "180": "ext/preset/checker/180.webp"
+    }
+   },
+   "colonnade": {
+    "num": 19,
+    "file": "자이언트오더기둥",
+    "name": "자이언트 오더 기둥",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/colonnade/000.webp",
+     "45": "ext/preset/colonnade/045.webp",
+     "90": "ext/preset/colonnade/090.webp",
+     "180": "ext/preset/colonnade/180.webp"
+    }
+   },
+   "kinetic": {
+    "num": 20,
+    "file": "키네틱회전패널",
+    "name": "키네틱 회전 패널",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/preset/kinetic/000.webp",
+     "45": "ext/preset/kinetic/045.webp",
+     "90": "ext/preset/kinetic/090.webp",
+     "180": "ext/preset/kinetic/180.webp"
+    }
+   }
+  },
+  "finish": {
+   "terra": {
+    "num": 1,
+    "file": "테라코타루버",
+    "name": "테라코타 루버",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/terra/000.webp",
+     "45": "ext/finish/terra/045.webp",
+     "90": "ext/finish/terra/090.webp",
+     "180": "ext/finish/terra/180.webp",
+     "135": "ext/finish/terra/135.webp",
+     "225": "ext/finish/terra/225.webp",
+     "270": "ext/finish/terra/270.webp"
+    },
+    "r360": true
+   },
+   "stone": {
+    "num": 2,
+    "file": "석재그리드",
+    "name": "석재 그리드",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/stone/000.webp",
+     "45": "ext/finish/stone/045.webp",
+     "90": "ext/finish/stone/090.webp",
+     "180": "ext/finish/stone/180.webp"
+    }
+   },
+   "metal": {
+    "num": 3,
+    "file": "메탈밴드",
+    "name": "메탈 밴드",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/metal/000.webp",
+     "45": "ext/finish/metal/045.webp",
+     "90": "ext/finish/metal/090.webp",
+     "180": "ext/finish/metal/180.webp",
+     "135": "ext/finish/metal/135.webp",
+     "225": "ext/finish/metal/225.webp",
+     "270": "ext/finish/metal/270.webp"
+    },
+    "r360": true
+   },
+   "brick": {
+    "num": 4,
+    "file": "벽돌피어",
+    "name": "벽돌 피어",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/brick/000.webp",
+     "45": "ext/finish/brick/045.webp",
+     "90": "ext/finish/brick/090.webp",
+     "180": "ext/finish/brick/180.webp",
+     "135": "ext/finish/brick/135.webp",
+     "225": "ext/finish/brick/225.webp",
+     "270": "ext/finish/brick/270.webp"
+    },
+    "r360": true
+   },
+   "glass": {
+    "num": 5,
+    "file": "올글라스",
+    "name": "올 글라스",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/glass/000.webp",
+     "45": "ext/finish/glass/045.webp",
+     "90": "ext/finish/glass/090.webp",
+     "180": "ext/finish/glass/180.webp",
+     "135": "ext/finish/glass/135.webp",
+     "225": "ext/finish/glass/225.webp",
+     "270": "ext/finish/glass/270.webp"
+    },
+    "r360": true
+   },
+   "frame": {
+    "num": 6,
+    "file": "원안프레임",
+    "name": "원안 프레임",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/frame/000.webp",
+     "45": "ext/finish/frame/045.webp",
+     "90": "ext/finish/frame/090.webp",
+     "180": "ext/finish/frame/180.webp",
+     "135": "ext/finish/frame/135.webp",
+     "225": "ext/finish/frame/225.webp",
+     "270": "ext/finish/frame/270.webp"
+    },
+    "r360": true
+   },
+   "veil": {
+    "num": 7,
+    "file": "메탈메시베일",
+    "name": "메탈 메시 베일",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/veil/000.webp",
+     "45": "ext/finish/veil/045.webp",
+     "90": "ext/finish/veil/090.webp",
+     "180": "ext/finish/veil/180.webp"
+    }
+   },
+   "arch": {
+    "num": 8,
+    "file": "아치석재",
+    "name": "아치 석재",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/arch/000.webp",
+     "45": "ext/finish/arch/045.webp",
+     "90": "ext/finish/arch/090.webp",
+     "180": "ext/finish/arch/180.webp"
+    }
+   },
+   "pixel": {
+    "num": 9,
+    "file": "픽셀모자이크",
+    "name": "픽셀 모자이크",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/pixel/000.webp",
+     "45": "ext/finish/pixel/045.webp",
+     "90": "ext/finish/pixel/090.webp",
+     "180": "ext/finish/pixel/180.webp"
+    }
+   },
+   "hex": {
+    "num": 10,
+    "file": "허니콤스크린",
+    "name": "허니콤 스크린",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/hex/000.webp",
+     "45": "ext/finish/hex/045.webp",
+     "90": "ext/finish/hex/090.webp",
+     "180": "ext/finish/hex/180.webp"
+    }
+   },
+   "gblock": {
+    "num": 11,
+    "file": "글라스블록",
+    "name": "글라스 블록",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/gblock/000.webp",
+     "45": "ext/finish/gblock/045.webp",
+     "90": "ext/finish/gblock/090.webp",
+     "180": "ext/finish/gblock/180.webp"
+    }
+   },
+   "perf": {
+    "num": 12,
+    "file": "그라데이션타공판",
+    "name": "그라데이션 타공판",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/perf/000.webp",
+     "45": "ext/finish/perf/045.webp",
+     "90": "ext/finish/perf/090.webp",
+     "180": "ext/finish/perf/180.webp"
+    }
+   },
+   "woodfin": {
+    "num": 13,
+    "file": "우드수직루버",
+    "name": "우드 수직 루버",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/woodfin/000.webp",
+     "45": "ext/finish/woodfin/045.webp",
+     "90": "ext/finish/woodfin/090.webp",
+     "180": "ext/finish/woodfin/180.webp"
+    }
+   },
+   "ceramic": {
+    "num": 14,
+    "file": "세라믹튜브",
+    "name": "세라믹 튜브",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/ceramic/000.webp",
+     "45": "ext/finish/ceramic/045.webp",
+     "90": "ext/finish/ceramic/090.webp",
+     "180": "ext/finish/ceramic/180.webp"
+    }
+   },
+   "uglass": {
+    "num": 15,
+    "file": "U글라스",
+    "name": "U-글라스",
+    "status": "on",
+    "has3d": true,
+    "img": {
+     "0": "ext/finish/uglass/000.webp",
+     "45": "ext/finish/uglass/045.webp",
+     "90": "ext/finish/uglass/090.webp",
+     "180": "ext/finish/uglass/180.webp",
+     "135": "ext/finish/uglass/135.webp",
+     "225": "ext/finish/uglass/225.webp",
+     "270": "ext/finish/uglass/270.webp"
+    },
+    "r360": true
+   }
+  }
+ },
+ "int": {
+  "1F": {
+   "name": "1F 카페",
+   "order": 1,
+   "status": "on",
+   "img": {
+    "000": "int/1F/000.webp",
+    "090": "int/1F/090.webp",
+    "180": "int/1F/180.webp",
+    "270": "int/1F/270.webp",
+    "center": "int/1F/center.webp",
+    "road": "int/1F/road.webp"
+   }
+  },
+  "2F-5F": {
+   "name": "2F-5F 사무실",
+   "order": 2,
+   "status": "on",
+   "img": {
+    "000": "int/2F-5F/000.webp",
+    "090": "int/2F-5F/090.webp",
+    "180": "int/2F-5F/180.webp",
+    "270": "int/2F-5F/270.webp",
+    "center": "int/2F-5F/center.webp",
+    "road": "int/2F-5F/road.webp"
+   }
+  },
+  "6F": {
+   "name": "6F 복층레스토랑",
+   "order": 3,
+   "status": "on",
+   "img": {
+    "000": "int/6F/000.webp",
+    "090": "int/6F/090.webp",
+    "180": "int/6F/180.webp",
+    "270": "int/6F/270.webp",
+    "center": "int/6F/center.webp",
+    "road": "int/6F/road.webp"
+   }
+  },
+  "7F": {
+   "name": "7F 테라스",
+   "order": 4,
+   "status": "on",
+   "img": {
+    "000": "int/7F/000.webp",
+    "090": "int/7F/090.webp",
+    "180": "int/7F/180.webp",
+    "270": "int/7F/270.webp",
+    "center": "int/7F/center.webp",
+    "road": "int/7F/road.webp"
+   }
+  },
+  "PH2": {
+   "name": "PH2 옥상정원",
+   "order": 5,
+   "status": "on",
+   "img": {
+    "000": "int/PH2/000.webp",
+    "090": "int/PH2/090.webp",
+    "180": "int/PH2/180.webp",
+    "270": "int/PH2/270.webp",
+    "center": "int/PH2/center.webp",
+    "road": "int/PH2/road.webp"
+   }
+  },
+  "B1": {
+   "name": "B1 주차장",
+   "order": 6,
+   "status": "on",
+   "img": {
+    "000": "int/B1/000.webp",
+    "090": "int/B1/090.webp",
+    "180": "int/B1/180.webp",
+    "270": "int/B1/270.webp"
+   }
+  },
+  "B2": {
+   "name": "B2 주차장",
+   "order": 7,
+   "status": "on",
+   "img": {
+    "000": "int/B2/000.webp",
+    "090": "int/B2/090.webp",
+    "180": "int/B2/180.webp",
+    "270": "int/B2/270.webp"
+   }
+  },
+  "B3": {
+   "name": "B3 주차장",
+   "order": 8,
+   "status": "on",
+   "img": {
+    "000": "int/B3/000.webp",
+    "090": "int/B3/090.webp",
+    "180": "int/B3/180.webp",
+    "270": "int/B3/270.webp"
+   }
+  }
+ },
+ "h": {
+  "ext/finish/arch/000.webp": "5a46d56d",
+  "ext/finish/arch/045.webp": "b92ead88",
+  "ext/finish/arch/090.webp": "7c751423",
+  "ext/finish/arch/180.webp": "cafe8822",
+  "ext/finish/brick/000.webp": "4d1ca042",
+  "ext/finish/brick/045.webp": "47d02c92",
+  "ext/finish/brick/090.webp": "34181fe1",
+  "ext/finish/brick/135.webp": "b4a06474",
+  "ext/finish/brick/180.webp": "3e249a3c",
+  "ext/finish/brick/225.webp": "60404e93",
+  "ext/finish/brick/270.webp": "5952e5dc",
+  "ext/finish/ceramic/000.webp": "a9cb0e65",
+  "ext/finish/ceramic/045.webp": "5401a9e2",
+  "ext/finish/ceramic/090.webp": "a2f22c21",
+  "ext/finish/ceramic/180.webp": "0242c599",
+  "ext/finish/frame/000.webp": "9bf9ebc8",
+  "ext/finish/frame/045.webp": "ab502978",
+  "ext/finish/frame/090.webp": "9dc841f1",
+  "ext/finish/frame/135.webp": "d57531f2",
+  "ext/finish/frame/180.webp": "c7513be7",
+  "ext/finish/frame/225.webp": "2a0b941c",
+  "ext/finish/frame/270.webp": "924fa505",
+  "ext/finish/gblock/000.webp": "81f956b4",
+  "ext/finish/gblock/045.webp": "b1bd713e",
+  "ext/finish/gblock/090.webp": "6e172400",
+  "ext/finish/gblock/180.webp": "cc7d1612",
+  "ext/finish/glass/000.webp": "c3893d7e",
+  "ext/finish/glass/045.webp": "e12f216c",
+  "ext/finish/glass/090.webp": "bbba837d",
+  "ext/finish/glass/135.webp": "cb1a7105",
+  "ext/finish/glass/180.webp": "498019d7",
+  "ext/finish/glass/225.webp": "42e051cb",
+  "ext/finish/glass/270.webp": "5e4e110c",
+  "ext/finish/hex/000.webp": "ac18188b",
+  "ext/finish/hex/045.webp": "9e7aa6e3",
+  "ext/finish/hex/090.webp": "42402219",
+  "ext/finish/hex/180.webp": "9fff6b58",
+  "ext/finish/metal/000.webp": "b022d1d1",
+  "ext/finish/metal/045.webp": "6a8599f3",
+  "ext/finish/metal/090.webp": "c487eb29",
+  "ext/finish/metal/135.webp": "e57fb840",
+  "ext/finish/metal/180.webp": "674db4e8",
+  "ext/finish/metal/225.webp": "4bb9380e",
+  "ext/finish/metal/270.webp": "8ef99393",
+  "ext/finish/perf/000.webp": "5c702fa6",
+  "ext/finish/perf/045.webp": "ee7daa4e",
+  "ext/finish/perf/090.webp": "22f9c340",
+  "ext/finish/perf/180.webp": "94c96ee0",
+  "ext/finish/pixel/000.webp": "913f5c51",
+  "ext/finish/pixel/045.webp": "94b6f838",
+  "ext/finish/pixel/090.webp": "61dce0cb",
+  "ext/finish/pixel/180.webp": "74b65a36",
+  "ext/finish/stone/000.webp": "270c2a04",
+  "ext/finish/stone/045.webp": "92014708",
+  "ext/finish/stone/090.webp": "59d398b6",
+  "ext/finish/stone/180.webp": "3d55bb48",
+  "ext/finish/terra/000.webp": "c9e7d3d1",
+  "ext/finish/terra/045.webp": "df3834b7",
+  "ext/finish/terra/090.webp": "682d5d95",
+  "ext/finish/terra/135.webp": "815fdca6",
+  "ext/finish/terra/180.webp": "ca204b77",
+  "ext/finish/terra/225.webp": "355f0843",
+  "ext/finish/terra/270.webp": "0fc02836",
+  "ext/finish/uglass/000.webp": "bee011f5",
+  "ext/finish/uglass/045.webp": "735ef531",
+  "ext/finish/uglass/090.webp": "359a1904",
+  "ext/finish/uglass/135.webp": "9508b79f",
+  "ext/finish/uglass/180.webp": "9a5a8822",
+  "ext/finish/uglass/225.webp": "59f492d8",
+  "ext/finish/uglass/270.webp": "3bca82ea",
+  "ext/finish/veil/000.webp": "1d989164",
+  "ext/finish/veil/045.webp": "898d5ea4",
+  "ext/finish/veil/090.webp": "58688c39",
+  "ext/finish/veil/180.webp": "7822cfc5",
+  "ext/finish/woodfin/000.webp": "1a907d19",
+  "ext/finish/woodfin/045.webp": "533c5e7f",
+  "ext/finish/woodfin/090.webp": "9b5b581e",
+  "ext/finish/woodfin/180.webp": "de456066",
+  "ext/preset/arch/000.webp": "41eaad41",
+  "ext/preset/arch/045.webp": "3510f313",
+  "ext/preset/arch/090.webp": "047fd582",
+  "ext/preset/arch/180.webp": "a854363d",
+  "ext/preset/balcony/000.webp": "3b07a70e",
+  "ext/preset/balcony/045.webp": "1610de77",
+  "ext/preset/balcony/090.webp": "27933608",
+  "ext/preset/balcony/180.webp": "5bf40870",
+  "ext/preset/baybox/000.webp": "230cee18",
+  "ext/preset/baybox/045.webp": "013cf65e",
+  "ext/preset/baybox/090.webp": "e711a0b2",
+  "ext/preset/baybox/180.webp": "ba523641",
+  "ext/preset/ceramic/000.webp": "7e38f2c1",
+  "ext/preset/ceramic/045.webp": "b8b91c52",
+  "ext/preset/ceramic/090.webp": "0aaa694c",
+  "ext/preset/ceramic/180.webp": "a3a1acf4",
+  "ext/preset/checker/000.webp": "36b80b99",
+  "ext/preset/checker/045.webp": "0f0c180d",
+  "ext/preset/checker/090.webp": "21024f7d",
+  "ext/preset/checker/180.webp": "c973a4cf",
+  "ext/preset/colonnade/000.webp": "cca9ccde",
+  "ext/preset/colonnade/045.webp": "3a0b7e90",
+  "ext/preset/colonnade/090.webp": "fd6db27c",
+  "ext/preset/colonnade/180.webp": "e16e160a",
+  "ext/preset/fold/000.webp": "de42422d",
+  "ext/preset/fold/045.webp": "d6e6d357",
+  "ext/preset/fold/090.webp": "6fbb8cab",
+  "ext/preset/fold/180.webp": "d497566f",
+  "ext/preset/gblock/000.webp": "aef0e3df",
+  "ext/preset/gblock/045.webp": "dda5e891",
+  "ext/preset/gblock/090.webp": "84d21249",
+  "ext/preset/gblock/180.webp": "b62ef3dc",
+  "ext/preset/hex/000.webp": "df1ff231",
+  "ext/preset/hex/045.webp": "8416bdbc",
+  "ext/preset/hex/090.webp": "8e725c06",
+  "ext/preset/hex/180.webp": "e11148b5",
+  "ext/preset/hfin/000.webp": "fa78fad5",
+  "ext/preset/hfin/045.webp": "c4783678",
+  "ext/preset/hfin/090.webp": "e5117080",
+  "ext/preset/hfin/180.webp": "248edd6c",
+  "ext/preset/kinetic/000.webp": "02ba31f3",
+  "ext/preset/kinetic/045.webp": "1723b80d",
+  "ext/preset/kinetic/090.webp": "11cd46d4",
+  "ext/preset/kinetic/180.webp": "cae369a2",
+  "ext/preset/media/000.webp": "ed83a4e1",
+  "ext/preset/media/045.webp": "772b7e2c",
+  "ext/preset/media/090.webp": "70835d33",
+  "ext/preset/media/135.webp": "a5e5aebc",
+  "ext/preset/media/180.webp": "b03899c9",
+  "ext/preset/media/225.webp": "535a1aa6",
+  "ext/preset/media/270.webp": "80aaccf7",
+  "ext/preset/perf/000.webp": "19f9c53b",
+  "ext/preset/perf/045.webp": "9035eebb",
+  "ext/preset/perf/090.webp": "f94d6209",
+  "ext/preset/perf/180.webp": "03fef0f2",
+  "ext/preset/pixel/000.webp": "d223bee2",
+  "ext/preset/pixel/045.webp": "e770a354",
+  "ext/preset/pixel/090.webp": "b35f77c9",
+  "ext/preset/pixel/180.webp": "807784e4",
+  "ext/preset/ribbon/000.webp": "696075bd",
+  "ext/preset/ribbon/045.webp": "4ac36fde",
+  "ext/preset/ribbon/090.webp": "30ad7260",
+  "ext/preset/ribbon/180.webp": "cf35c195",
+  "ext/preset/stack/000.webp": "fb70b802",
+  "ext/preset/stack/045.webp": "de47f721",
+  "ext/preset/stack/090.webp": "bb02c04f",
+  "ext/preset/stack/135.webp": "a8b87a25",
+  "ext/preset/stack/180.webp": "c85def13",
+  "ext/preset/stack/225.webp": "a6aa314c",
+  "ext/preset/stack/270.webp": "3832b39e",
+  "ext/preset/uglass/000.webp": "bee011f5",
+  "ext/preset/uglass/045.webp": "735ef531",
+  "ext/preset/uglass/090.webp": "359a1904",
+  "ext/preset/uglass/135.webp": "9508b79f",
+  "ext/preset/uglass/180.webp": "9a5a8822",
+  "ext/preset/uglass/225.webp": "59f492d8",
+  "ext/preset/uglass/270.webp": "3bca82ea",
+  "ext/preset/veil/000.webp": "49e2e320",
+  "ext/preset/veil/045.webp": "d4d97365",
+  "ext/preset/veil/090.webp": "24608bf1",
+  "ext/preset/veil/180.webp": "46fb7c6a",
+  "ext/preset/woodfin/000.webp": "21b878ab",
+  "ext/preset/woodfin/045.webp": "23550f29",
+  "ext/preset/woodfin/090.webp": "894ce601",
+  "ext/preset/woodfin/180.webp": "f04bd682",
+  "ext/preset/xbrace/000.webp": "bdd74380",
+  "ext/preset/xbrace/045.webp": "cce30929",
+  "ext/preset/xbrace/090.webp": "3e866527",
+  "ext/preset/xbrace/135.webp": "8bcd5f7e",
+  "ext/preset/xbrace/180.webp": "df395c96",
+  "ext/preset/xbrace/225.webp": "63c69124",
+  "ext/preset/xbrace/270.webp": "4e807bdd",
+  "int/1F/000.webp": "1cc70937",
+  "int/1F/090.webp": "fb601bde",
+  "int/1F/180.webp": "1b4de187",
+  "int/1F/270.webp": "377489c2",
+  "int/1F/center.webp": "eae59e14",
+  "int/1F/road.webp": "f1287dd0",
+  "int/2F-5F/000.webp": "65cbd81d",
+  "int/2F-5F/090.webp": "f08ae7a5",
+  "int/2F-5F/180.webp": "16b088a9",
+  "int/2F-5F/270.webp": "b6d75eba",
+  "int/2F-5F/center.webp": "37d35ddc",
+  "int/2F-5F/road.webp": "dd84a10b",
+  "int/6F/000.webp": "d4c462b4",
+  "int/6F/090.webp": "4203dcc6",
+  "int/6F/180.webp": "6e568488",
+  "int/6F/270.webp": "a6bb1a41",
+  "int/6F/center.webp": "3bb165c8",
+  "int/6F/road.webp": "950af3b8",
+  "int/7F/000.webp": "431d1399",
+  "int/7F/090.webp": "aa9864c9",
+  "int/7F/180.webp": "773e520d",
+  "int/7F/270.webp": "77326e0b",
+  "int/7F/center.webp": "4531b94b",
+  "int/7F/road.webp": "930c2cc7",
+  "int/B1/000.webp": "ae4e66f9",
+  "int/B1/090.webp": "96be65b1",
+  "int/B1/180.webp": "fa07031f",
+  "int/B1/270.webp": "cf494935",
+  "int/B2/000.webp": "0c3a7bf2",
+  "int/B2/090.webp": "d7d0b3a0",
+  "int/B2/180.webp": "92ec345f",
+  "int/B2/270.webp": "2b66f2bd",
+  "int/B3/000.webp": "10fbb2f6",
+  "int/B3/090.webp": "e30c9bbf",
+  "int/B3/180.webp": "211713c6",
+  "int/B3/270.webp": "bdd795fb",
+  "int/PH2/000.webp": "0b407117",
+  "int/PH2/090.webp": "c56f25a3",
+  "int/PH2/180.webp": "bdbf8063",
+  "int/PH2/270.webp": "a4e2464a",
+  "int/PH2/center.webp": "8595c3b3",
+  "int/PH2/road.webp": "5478bacc"
+ }
+}
