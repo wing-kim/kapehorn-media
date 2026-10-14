@@ -1,5 +1,5 @@
 {
- "version": "2026-10-14 04:36",
+ "version": "2026-10-14 05:18",
  "tiers": {
   "thumb": "thumb/",
   "std": "std/",
@@ -42,7 +42,16 @@
     "name": "메탈 메시 베일",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/veil/000.webp",
+     "45": "ext/veil/045.webp",
+     "90": "ext/veil/090.webp",
+     "135": "ext/veil/135.webp",
+     "180": "ext/veil/180.webp",
+     "225": "ext/veil/225.webp",
+     "270": "ext/veil/270.webp"
+    },
+    "r360": true
    },
    "arch": {
     "num": 3,
@@ -50,7 +59,16 @@
     "name": "아치 석재",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/arch/000.webp",
+     "45": "ext/arch/045.webp",
+     "90": "ext/arch/090.webp",
+     "135": "ext/arch/135.webp",
+     "180": "ext/arch/180.webp",
+     "225": "ext/arch/225.webp",
+     "270": "ext/arch/270.webp"
+    },
+    "r360": true
    },
    "pixel": {
     "num": 4,
@@ -58,7 +76,16 @@
     "name": "픽셀 모자이크",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/pixel/000.webp",
+     "45": "ext/pixel/045.webp",
+     "90": "ext/pixel/090.webp",
+     "135": "ext/pixel/135.webp",
+     "180": "ext/pixel/180.webp",
+     "225": "ext/pixel/225.webp",
+     "270": "ext/pixel/270.webp"
+    },
+    "r360": true
    },
    "fold": {
     "num": 5,
@@ -66,7 +93,16 @@
     "name": "접힌 알루미늄",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/fold/000.webp",
+     "45": "ext/fold/045.webp",
+     "90": "ext/fold/090.webp",
+     "135": "ext/fold/135.webp",
+     "180": "ext/fold/180.webp",
+     "225": "ext/fold/225.webp",
+     "270": "ext/fold/270.webp"
+    },
+    "r360": true
    },
    "ribbon": {
     "num": 6,
@@ -98,7 +134,16 @@
     "name": "허니콤 스크린",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/hex/000.webp",
+     "45": "ext/hex/045.webp",
+     "90": "ext/hex/090.webp",
+     "135": "ext/hex/135.webp",
+     "180": "ext/hex/180.webp",
+     "225": "ext/hex/225.webp",
+     "270": "ext/hex/270.webp"
+    },
+    "r360": true
    },
    "media": {
     "num": 10,
@@ -123,7 +168,16 @@
     "name": "글라스 블록",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/gblock/000.webp",
+     "45": "ext/gblock/045.webp",
+     "90": "ext/gblock/090.webp",
+     "135": "ext/gblock/135.webp",
+     "180": "ext/gblock/180.webp",
+     "225": "ext/gblock/225.webp",
+     "270": "ext/gblock/270.webp"
+    },
+    "r360": true
    },
    "perf": {
     "num": 12,
@@ -223,7 +277,16 @@
     "name": "메탈 메시 베일",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/veil/000.webp",
+     "45": "ext/veil/045.webp",
+     "90": "ext/veil/090.webp",
+     "135": "ext/veil/135.webp",
+     "180": "ext/veil/180.webp",
+     "225": "ext/veil/225.webp",
+     "270": "ext/veil/270.webp"
+    },
+    "r360": true
    },
    "arch": {
     "num": 3,
@@ -231,7 +294,16 @@
     "name": "아치 석재",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/arch/000.webp",
+     "45": "ext/arch/045.webp",
+     "90": "ext/arch/090.webp",
+     "135": "ext/arch/135.webp",
+     "180": "ext/arch/180.webp",
+     "225": "ext/arch/225.webp",
+     "270": "ext/arch/270.webp"
+    },
+    "r360": true
    },
    "pixel": {
     "num": 4,
@@ -239,7 +311,16 @@
     "name": "픽셀 모자이크",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/pixel/000.webp",
+     "45": "ext/pixel/045.webp",
+     "90": "ext/pixel/090.webp",
+     "135": "ext/pixel/135.webp",
+     "180": "ext/pixel/180.webp",
+     "225": "ext/pixel/225.webp",
+     "270": "ext/pixel/270.webp"
+    },
+    "r360": true
    },
    "hex": {
     "num": 9,
@@ -247,7 +328,16 @@
     "name": "허니콤 스크린",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/hex/000.webp",
+     "45": "ext/hex/045.webp",
+     "90": "ext/hex/090.webp",
+     "135": "ext/hex/135.webp",
+     "180": "ext/hex/180.webp",
+     "225": "ext/hex/225.webp",
+     "270": "ext/hex/270.webp"
+    },
+    "r360": true
    },
    "gblock": {
     "num": 11,
@@ -255,7 +345,16 @@
     "name": "글라스 블록",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/gblock/000.webp",
+     "45": "ext/gblock/045.webp",
+     "90": "ext/gblock/090.webp",
+     "135": "ext/gblock/135.webp",
+     "180": "ext/gblock/180.webp",
+     "225": "ext/gblock/225.webp",
+     "270": "ext/gblock/270.webp"
+    },
+    "r360": true
    },
    "perf": {
     "num": 12,
@@ -321,7 +420,16 @@
     "name": "석재 그리드",
     "status": "on",
     "has3d": true,
-    "img": {}
+    "img": {
+     "0": "ext/stone/000.webp",
+     "45": "ext/stone/045.webp",
+     "90": "ext/stone/090.webp",
+     "135": "ext/stone/135.webp",
+     "180": "ext/stone/180.webp",
+     "225": "ext/stone/225.webp",
+     "270": "ext/stone/270.webp"
+    },
+    "r360": true
    },
    "metal": {
     "num": 23,
@@ -494,6 +602,13 @@
   }
  },
  "h": {
+  "ext/arch/000.webp": "68dc77b7",
+  "ext/arch/045.webp": "0b692273",
+  "ext/arch/090.webp": "86ea54d8",
+  "ext/arch/135.webp": "bb90761d",
+  "ext/arch/180.webp": "dc0807ef",
+  "ext/arch/225.webp": "17102305",
+  "ext/arch/270.webp": "4b1affff",
   "ext/brick/000.webp": "4d1ca042",
   "ext/brick/045.webp": "47d02c92",
   "ext/brick/090.webp": "34181fe1",
@@ -501,6 +616,13 @@
   "ext/brick/180.webp": "3e249a3c",
   "ext/brick/225.webp": "60404e93",
   "ext/brick/270.webp": "5952e5dc",
+  "ext/fold/000.webp": "ceed9244",
+  "ext/fold/045.webp": "7151e218",
+  "ext/fold/090.webp": "b57257e9",
+  "ext/fold/135.webp": "4575ef36",
+  "ext/fold/180.webp": "f203fc9f",
+  "ext/fold/225.webp": "8cc37187",
+  "ext/fold/270.webp": "a17d06b3",
   "ext/frame/000.webp": "9bf9ebc8",
   "ext/frame/045.webp": "ab502978",
   "ext/frame/090.webp": "9dc841f1",
@@ -508,6 +630,13 @@
   "ext/frame/180.webp": "c7513be7",
   "ext/frame/225.webp": "2a0b941c",
   "ext/frame/270.webp": "924fa505",
+  "ext/gblock/000.webp": "3b47bd1e",
+  "ext/gblock/045.webp": "d5aa02ed",
+  "ext/gblock/090.webp": "afea5791",
+  "ext/gblock/135.webp": "f28b0547",
+  "ext/gblock/180.webp": "49eab1ff",
+  "ext/gblock/225.webp": "67db019a",
+  "ext/gblock/270.webp": "034bfb88",
   "ext/glass/000.webp": "c3893d7e",
   "ext/glass/045.webp": "e12f216c",
   "ext/glass/090.webp": "bbba837d",
@@ -515,6 +644,13 @@
   "ext/glass/180.webp": "498019d7",
   "ext/glass/225.webp": "42e051cb",
   "ext/glass/270.webp": "5e4e110c",
+  "ext/hex/000.webp": "adfddeb6",
+  "ext/hex/045.webp": "5d5cbbcb",
+  "ext/hex/090.webp": "772ded85",
+  "ext/hex/135.webp": "567fcdac",
+  "ext/hex/180.webp": "8fedb1b1",
+  "ext/hex/225.webp": "c2c62358",
+  "ext/hex/270.webp": "1ced4b2e",
   "ext/media/000.webp": "ed83a4e1",
   "ext/media/045.webp": "772b7e2c",
   "ext/media/090.webp": "70835d33",
@@ -529,6 +665,13 @@
   "ext/metal/180.webp": "674db4e8",
   "ext/metal/225.webp": "4bb9380e",
   "ext/metal/270.webp": "8ef99393",
+  "ext/pixel/000.webp": "eaf7ae7b",
+  "ext/pixel/045.webp": "802dd2a8",
+  "ext/pixel/090.webp": "aa308340",
+  "ext/pixel/135.webp": "8a004cff",
+  "ext/pixel/180.webp": "31bbf60d",
+  "ext/pixel/225.webp": "51cf3d92",
+  "ext/pixel/270.webp": "1622bb76",
   "ext/stack/000.webp": "fb70b802",
   "ext/stack/045.webp": "de47f721",
   "ext/stack/090.webp": "bb02c04f",
@@ -536,6 +679,13 @@
   "ext/stack/180.webp": "c85def13",
   "ext/stack/225.webp": "a6aa314c",
   "ext/stack/270.webp": "3832b39e",
+  "ext/stone/000.webp": "4a013d0a",
+  "ext/stone/045.webp": "bbd0686a",
+  "ext/stone/090.webp": "831ada7f",
+  "ext/stone/135.webp": "7ff01d32",
+  "ext/stone/180.webp": "8fe474e5",
+  "ext/stone/225.webp": "3334ba27",
+  "ext/stone/270.webp": "fbd9c8fd",
   "ext/terra/000.webp": "c9e7d3d1",
   "ext/terra/045.webp": "df3834b7",
   "ext/terra/090.webp": "682d5d95",
@@ -550,6 +700,13 @@
   "ext/uglass/180.webp": "9a5a8822",
   "ext/uglass/225.webp": "59f492d8",
   "ext/uglass/270.webp": "3bca82ea",
+  "ext/veil/000.webp": "d479bfea",
+  "ext/veil/045.webp": "61d55b8d",
+  "ext/veil/090.webp": "85e6e12a",
+  "ext/veil/135.webp": "09966d70",
+  "ext/veil/180.webp": "1e5844c1",
+  "ext/veil/225.webp": "6dae8bea",
+  "ext/veil/270.webp": "68438e63",
   "ext/xbrace/000.webp": "bdd74380",
   "ext/xbrace/045.webp": "cce30929",
   "ext/xbrace/090.webp": "3e866527",
